@@ -1,0 +1,285 @@
+*{
+       
+    max-height: 400vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+ .dropd{
+   background: rgb(63,251,246);
+   background: radial-gradient(circle, rgba(63,251,246,1) 6%, rgba(0,27,114,1) 100%);
+ }
+ 
+ 
+   
+   #envelope {
+     animation: float 2s ease-in-out infinite;
+   }
+   
+   #star1, #star2, #star3, #star4, #star5, #star6 {
+     animation: blink 1s ease-in-out infinite;
+   }
+   #star2 { animation-delay: 100ms; }
+   #star3 { animation-delay: 500ms; }
+   #star4 { animation-delay: 700ms; }
+   #star5 { animation-delay: 300ms; }
+   #star6 { animation-delay: 200ms }
+   
+   @keyframes float {
+     0% {
+       transform: translateY(0px);
+     }
+     50% {
+       transform: translateY(-20px);
+     }
+     100% {
+       transform: translateY(0px);
+     }
+   }
+   
+   @keyframes blink {
+     0% {
+       opacity: 0;
+     }
+     50% {
+       opacity: .5;
+     }
+     100% {
+       opacity: 1;
+     }
+   }
+   
+   .containers {
+     height: 200vh;
+     width: 100vh;
+   }
+   
+   form
+       
+       #formName{
+       position: relative;
+       margin-left: 800px;
+       margin-bottom: 20px;
+       
+       width: 400px;
+       box-shadow: 0px 7px 5px rgba(225, 18, 18, 0.11);
+       box-sizing: border-box;
+       border-radius: 2rem;
+       height: 50px;
+   
+     }
+     #formEmail{
+       margin-left: 800px;
+       margin-bottom: 20px;
+       width: 400px;
+       box-shadow: 0px 7px 5px rgba(225, 18, 18, 0.11);
+       background-color: #f2f6f8;
+       box-sizing: border-box;
+       border-radius: 2rem;
+       height: 50px;
+     }
+     #formMessage{
+       margin-left: 800px;
+       width: 400px;
+       
+     }
+     .forms-control {
+       display: flex;
+       position: relative;         
+       width: 70%;
+       margin-left: 550px;
+       padding-right: 10px;
+       background-color: #f2f6f8;
+       box-sizing: border-box;
+       border-radius: 2rem;
+       border: none;
+       box-shadow: 0px 7px 5px rgba(225, 18, 18, 0.11);
+           
+       &.thick {
+         height: 3.3rem;
+         padding: .5rem 3.5rem;
+       }
+           
+           &:focus {
+               background-color: #f2f6f8;
+               border: none;
+               box-shadow: 0px 7px 5px rgba(232, 13, 13, 0.11);
+           }
+     }
+       
+       .message .forms-control {
+               padding: .5rem 1.8rem;
+       }
+       
+     ::placeholder {
+       font-family: 'Quicksand', sans-serif;
+       font-weight: 600;
+       font-size: 1.1rem;
+       color: #838788;
+       position: relative;
+       padding: 40px;
+       left: 0;
+     }
+       
+     input,
+     textarea {
+           font-family: 'Quicksand', sans-serif;
+       color: #212529;
+       font-size: 1.1rem;
+     }
+       
+     .icon {
+       color: #57565c;
+       height: 1.3rem;
+       position: absolute;
+       left: 1.5rem;
+       top: 1.1rem;
+     }
+   
+   
+   .btn.btn-primary {
+     margin-top: 20px;
+     width: 150px;
+     width: 40%;
+     margin-left: 860px;
+     font-family: 'Quicksand', sans-serif;
+     font-weight: bold;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     padding: 0 3rem;
+     border: 0;
+     border-radius: 3rem;
+     background-image:linear-gradient(131deg, #405dff, #3c9aff, #3ce8ff, #3ce8ff);
+     transition: all 0.3s ease-in-out;
+   }
+   .btn.btn-primary2 {
+     cursor: pointer;
+     margin-top: 200px;
+     margin-left: 30px;
+     font-family: 'Quicksand', sans-serif;
+     font-weight: bold;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     padding: 0 3rem;
+     margin-left: 950px;
+     border: 0;
+     border-radius: 3rem;
+     background-image:linear-gradient(131deg, #405dff, #3c9aff, #3ce8ff, #3ce8ff);
+     transition: all 0.3s ease-in-out;
+   }
+   .btn.btn-primary3 {
+     margin-top: 20px;
+     width: 15px;
+     width: 20%;
+     margin-left: 860px;
+     font-family: 'Quicksand', sans-serif;
+     font-weight: bold;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     padding: 0 3rem;
+     border: 0;
+     border-radius: 3rem;
+     background-image:linear-gradient(131deg, #405dff, #3c9aff, #3ce8ff, #3ce8ff);
+     transition: all 0.3s ease-in-out;
+   }
+   .btn.btn-primary2:hover:enabled {
+     box-shadow: 0 0.5em 0.5em -0.4em #3cf5ffba;
+     background-size: 100% 100%;
+     transform: translateY(-0.15em);
+   }
+   .btn.btn-primary3:hover:enabled {
+     box-shadow: 0 0.5em 0.5em -0.4em #3cf5ffba;
+     background-size: 100% 100%;
+     transform: translateY(-0.15em);
+   }
+   
+   
+   .btn.btn-primary:hover:enabled {
+     box-shadow: 0 0.5em 0.5em -0.4em #3cf5ffba;
+     background-size: 100% 100%;
+     transform: translateY(-0.15em);
+   }
+
+   p{
+     width: 100%;
+     float: right;
+   }
+
+   h2{
+
+     width: 50%;
+   }
+   
+   #app{
+     text-align:center;
+     font-size:50px;
+     background-image: linear-gradient(
+       -225deg,
+       #000 0%,
+       #000 29%,
+       #000 67%,
+       #000 100%
+     );
+     background-clip:border-box;
+      text-fill-color: transparent;
+     background-clip:text;
+     -webkit-background-clip:text;
+     -webkit-text-fill-color: transparent;
+     text-fill-color: transparent;
+     animation: textclip 2s linear infinite;
+   }
+   
+   @keyframes textclip {
+     to {
+       background-position: 200% center;
+     }
+   }
+
+   
+
+   
+   .emailform{
+    margin-left: 900px;
+    margin-right:250px ;
+    float: right;
+    display: flexbox;
+}
+.emailp{
+    border: solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(212, 215, 218);
+    color: black;
+    border-color: aliceblue;
+}
+.emailp1{
+    border: solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(212, 215, 218);
+    color: black;
+    border-color: aliceblue;
+}
+.emaibtn{
+    border: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: rgb(141, 133, 133);
+}
+#emailsimg{
+    float: left;
+   
+}
+
+.emaibtn:hover{
+    color: rgb(250, 250, 252);
+    background-color: rgb(22, 27, 191);
+}

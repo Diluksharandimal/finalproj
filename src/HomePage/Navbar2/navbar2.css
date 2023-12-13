@@ -1,0 +1,8 @@
+.foot2{
+    background: rgb(42,197,255);
+background: radial-gradient(circle, rgba(42,197,255,1) 16%, rgba(11,112,232,1) 80%);
+}
+
+.btncus{
+    margin-right: -100px;
+}

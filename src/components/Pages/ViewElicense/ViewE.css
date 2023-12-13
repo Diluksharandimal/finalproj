@@ -1,0 +1,42 @@
+#Elicense{
+    border:solid 2px;
+    border-radius:25px;
+    padding: 50px;
+    margin-left:500px;
+    margin-right: 500px;
+    margin-top: 200px;
+}
+#Elicense1{
+    border:solid 2px;
+    border-radius:28px;
+    padding: 50px;
+    margin-left:500px;
+    margin-right: 500px;
+    margin-top: 10px;
+}
+#idpic{
+    width: 100px;
+    border:solid 3px;
+    border-radius: 10px;
+}
+.idinfo{
+    margin-top: -80px;
+    margin-right:-80px;
+    margin-bottom:20px;
+    
+}
+.idlogo{
+    width: 50px;
+    height: 80px;
+    margin-bottom: -30px;
+    margin-top:-20px;
+}
+#idtitle{
+    margin-top: -150px;
+}
+#idtitle12{
+    margin-top: 30px;
+}
+#iddoc{
+   margin-top: -100px;
+}

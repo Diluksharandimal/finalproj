@@ -1,0 +1,45 @@
+.emailform{
+    margin-left: 100px;
+    margin-top: 130px;
+    margin-right:250px ;
+    float: right;
+    display: flexbox;
+}
+.emailp{
+    border: solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(212, 215, 218);
+    color: black;
+    border-color: aliceblue;
+}
+.emailp1{
+    border: solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(212, 215, 218);
+    color: black;
+    border-color: aliceblue;
+}
+.emaibtn{
+    border: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: rgb(141, 133, 133);
+}
+#emailsimg{
+    float: left;
+   
+}
+
+.emaibtn:hover{
+    color: rgb(250, 250, 252);
+    background-color: rgb(22, 27, 191);
+}

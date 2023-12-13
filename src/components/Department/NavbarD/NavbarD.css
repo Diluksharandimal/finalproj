@@ -1,0 +1,9 @@
+.dro{
+    background: rgb(63,251,246);
+background: radial-gradient(circle, rgba(63,251,246,1) 6%, rgba(0,27,114,1) 100%);
+}
+
+.foot{
+    background: rgb(219,225,227);
+    background: radial-gradient(circle, rgba(63,251,246,1) 6%, rgba(0,27,114,1) 100%);
+    }
